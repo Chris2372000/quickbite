@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="QuickBite">
+  <defs>
+    <linearGradient id="g" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF8A3D"/>
+      <stop offset="1" stop-color="#F0430F"/>
+    </linearGradient>
+    <mask id="bite">
+      <rect width="64" height="64" fill="#fff"/>
+      <circle cx="59" cy="7" r="10.5" fill="#000"/>
+      <circle cx="46" cy="1" r="6.5" fill="#000"/>
+      <circle cx="62" cy="22" r="6.5" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)" mask="url(#bite)"/>
+  <path d="M35.5 11 20 36h11l-3 17 17-27H33.5L35.5 11z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
+</svg>

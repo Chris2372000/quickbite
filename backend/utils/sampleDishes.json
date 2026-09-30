@@ -1,0 +1,222 @@
+[
+  {
+    "slug": "the famous:smash-burger",
+    "restaurant": "THE FAMOUS",
+    "name": "Double Smash Burger",
+    "description": "Two smashed patties, aged cheddar, pickles, burger sauce, brioche bun.",
+    "price": 13.5,
+    "category": "Popular",
+    "imageUrl": "/images/dishes/smash-burger.jpg",
+    "modifierGroups": [
+      {
+        "name": "Size",
+        "required": false,
+        "multiple": false,
+        "options": [
+          {
+            "name": "Regular",
+            "priceDelta": 0
+          },
+          {
+            "name": "Double Stack",
+            "priceDelta": 3.5
+          }
+        ]
+      },
+      {
+        "name": "Extras",
+        "required": false,
+        "multiple": true,
+        "options": [
+          {
+            "name": "Bacon",
+            "priceDelta": 1.5
+          },
+          {
+            "name": "Extra cheese",
+            "priceDelta": 1
+          },
+          {
+            "name": "Fried egg",
+            "priceDelta": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "the famous:truffle-fries",
+    "restaurant": "THE FAMOUS",
+    "name": "Truffle Parmesan Fries",
+    "description": "Hand-cut fries, truffle oil, shaved parmesan, chives.",
+    "price": 7,
+    "category": "Popular",
+    "imageUrl": "/images/dishes/truffle-fries.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "the famous:charred-wings",
+    "restaurant": "THE FAMOUS",
+    "name": "Charred Wings",
+    "description": "Smoked and charred, tossed in honey-chili glaze.",
+    "price": 10.5,
+    "category": "Starters",
+    "imageUrl": "/images/dishes/charred-wings.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "the famous:oak-steak",
+    "restaurant": "THE FAMOUS",
+    "name": "Oak-Fired Ribeye",
+    "description": "10oz ribeye, herb butter, roasted garlic mash.",
+    "price": 26,
+    "category": "Mains",
+    "imageUrl": "/images/dishes/oak-steak.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "the famous:smoked-lemonade",
+    "restaurant": "THE FAMOUS",
+    "name": "Smoked Lemonade",
+    "description": "House lemonade, charred lemon, mint.",
+    "price": 4.5,
+    "category": "Drinks",
+    "imageUrl": "/images/dishes/smoked-lemonade.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "the famous:burnt-cheesecake",
+    "restaurant": "THE FAMOUS",
+    "name": "Basque Burnt Cheesecake",
+    "description": "Caramelized top, silky center, berry compote.",
+    "price": 8,
+    "category": "Desserts",
+    "imageUrl": "/images/dishes/burnt-cheesecake.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "sakura-ramen-house:tonkotsu-ramen",
+    "restaurant": "Sakura Ramen House",
+    "name": "Tonkotsu Ramen",
+    "description": "18-hour pork broth, chashu, ajitama egg, scallion.",
+    "price": 15,
+    "category": "Popular",
+    "imageUrl": "/images/dishes/tonkotsu-ramen.jpg",
+    "modifierGroups": [
+      {
+        "name": "Size",
+        "required": false,
+        "multiple": false,
+        "options": [
+          {
+            "name": "Regular",
+            "priceDelta": 0
+          },
+          {
+            "name": "Large",
+            "priceDelta": 3
+          }
+        ]
+      },
+      {
+        "name": "Extras",
+        "required": false,
+        "multiple": true,
+        "options": [
+          {
+            "name": "Extra chashu",
+            "priceDelta": 2.5
+          },
+          {
+            "name": "Extra egg",
+            "priceDelta": 1.5
+          },
+          {
+            "name": "Corn",
+            "priceDelta": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sakura-ramen-house:gyoza",
+    "restaurant": "Sakura Ramen House",
+    "name": "Pan-Fried Gyoza (6pc)",
+    "description": "Pork and cabbage dumplings, ponzu dip.",
+    "price": 7.5,
+    "category": "Starters",
+    "imageUrl": "/images/dishes/gyoza.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "sakura-ramen-house:seaweed-salad",
+    "restaurant": "Sakura Ramen House",
+    "name": "Seaweed Salad",
+    "description": "Sesame-marinated wakame.",
+    "price": 5,
+    "category": "Sides",
+    "imageUrl": "/images/dishes/seaweed-salad.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "casa-verde-tacos:al-pastor-tacos",
+    "restaurant": "Casa Verde Tacos",
+    "name": "Al Pastor Tacos (3pc)",
+    "description": "Marinated pork, pineapple, cilantro, onion, corn tortilla.",
+    "price": 9,
+    "category": "Popular",
+    "imageUrl": "/images/dishes/al-pastor-tacos.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "casa-verde-tacos:birria-quesadilla",
+    "restaurant": "Casa Verde Tacos",
+    "name": "Birria Quesadilla",
+    "description": "Slow-braised beef, melted oaxaca cheese, consommé.",
+    "price": 12,
+    "category": "Mains",
+    "imageUrl": "/images/dishes/birria-quesadilla.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "casa-verde-tacos:horchata",
+    "restaurant": "Casa Verde Tacos",
+    "name": "Horchata",
+    "description": "House-made rice and cinnamon horchata.",
+    "price": 3.5,
+    "category": "Drinks",
+    "imageUrl": "/images/dishes/horchata.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "green-bowl-kitchen:harvest-bowl",
+    "restaurant": "Green Bowl Kitchen",
+    "name": "Harvest Grain Bowl",
+    "description": "Farro, roasted squash, kale, feta, tahini dressing.",
+    "price": 12.5,
+    "category": "Popular",
+    "imageUrl": "/images/dishes/harvest-bowl.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "bella-notte-pizzeria:margherita",
+    "restaurant": "Bella Notte Pizzeria",
+    "name": "Margherita Pizza",
+    "description": "San Marzano tomato, fior di latte, basil, olive oil.",
+    "price": 14,
+    "category": "Popular",
+    "imageUrl": "/images/dishes/margherita.jpg",
+    "modifierGroups": []
+  },
+  {
+    "slug": "golden-wok:kung-pao-chicken",
+    "restaurant": "Golden Wok",
+    "name": "Kung Pao Chicken",
+    "description": "Diced chicken, peanuts, dried chili, scallion.",
+    "price": 11.5,
+    "category": "Popular",
+    "imageUrl": "/images/dishes/kung-pao-chicken.jpg",
+    "modifierGroups": []
+  }
+]
